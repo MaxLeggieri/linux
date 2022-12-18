@@ -1157,7 +1157,7 @@
 
 
 &spi3 {
-	status = "disabled";
+	status = "okay";
 
 	cs-gpios = <&gpio1 17 GPIO_ACTIVE_LOW>, <&gpio1 16 GPIO_ACTIVE_LOW>;
 	max-freq = <48000000>;

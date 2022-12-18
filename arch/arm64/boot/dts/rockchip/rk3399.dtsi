@@ -2750,7 +2750,7 @@
 		spi3 {
 			spi3_clk: spi3-clk {
 				rockchip,pins =
-					<1 17 RK_FUNC_1 &pcfg_pull_up>;
+					<1 17 RK_FUNC_1 &pcfg_pull_down>;
 			};
 			spi3_cs0: spi3-cs0 {
 				rockchip,pins =
